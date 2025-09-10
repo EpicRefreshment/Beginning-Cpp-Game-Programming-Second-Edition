@@ -16,7 +16,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${COMMON_OUTPUT_DIR}/bin")  # For executable
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${COMMON_OUTPUT_DIR}/lib")  # For shared libraries
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${COMMON_OUTPUT_DIR}/lib")  # For static libraries
 
-add_subdirectory(openal-soft)
+#add_subdirectory(openal-soft)
 add_subdirectory(SFML)
 add_subdirectory(Chapter01)
 #add_subdirectory(Chapter07)
