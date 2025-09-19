@@ -5,6 +5,9 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 
+// Include custom C++ libraries here
+#include "include/ECE_Buzzy.h"
+
 // Make code easier to type with "using namespace"
 using namespace std;
 using namespace sf;
@@ -31,9 +34,12 @@ int main()
 	spriteBackground.setScale(scaleX, scaleY);
 	spriteBackground.setPosition(0, 0);
 
+	// Initialize game objects
+	ECE_Buzzy buzzy(windowSize);
+
 	// Initialize variables for game loop
 	bool paused = true;
-	int score = 0;
+	bool acceptInput = false;
 
 	while (window.isOpen())
 	{
@@ -48,9 +54,14 @@ int main()
 		if (Keyboard::isKeyPressed(Keyboard::Return))
 		{
 			paused = false;
+			acceptInput = true;
+		}
 
-			// Reset the time and the score
-			score = 0;
+		// Wrap the player controls to
+		// Make sure we are accepting input
+		if (acceptInput)
+		{
+			buzzy.update();
 		}
 
 		// Update scene
@@ -60,6 +71,7 @@ int main()
 		// Refresh display
 		window.clear();
 		window.draw(spriteBackground);
+		window.draw(buzzy.spriteBuzzy);
 		window.display();
 	}
 

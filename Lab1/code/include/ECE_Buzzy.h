@@ -1,19 +1,26 @@
-// Include important C++ libraries here
-#include <sstream>
+#ifndef ECE_BUZZY_H
+#define ECE_BUZZY_H
+
+// Include SFML libraries here
 #include <SFML/Graphics.hpp>
 
-// Make code easier to type with "using namespace"
 using namespace sf;
+using namespace std;
 
 class ECE_Buzzy: public Sprite
 {
 public:
-    ECE_Buzzy();
-    void reset(float startX, float startY);
-    bool isActive();
-    FloatRect getPosition();
-    FloatRect getGlobalBounds();
-    void moveLeft(float dx);
-    void moveRight(float dx);
-    void setInactive();
+    ECE_Buzzy(Vector2u windowSize);
+    void update();
+    bool collisionDetected(const Sprite& object);
+    Sprite spriteBuzzy;
+private:
+    Texture textureBuzzy;
+    Vector2u buzzySize;
+    float speedBuzzy;
+    float positionXBuzzy;
+    float positionYBuzzy;
+    Vector2u screenBoundary;
 };
+
+#endif // ECE_BUZZY_H

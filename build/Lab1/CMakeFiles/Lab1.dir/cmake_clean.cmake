@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../output/bin/Lab1.pdb"
   "CMakeFiles/Lab1.dir/code/BuzzyDefender.cpp.o"
   "CMakeFiles/Lab1.dir/code/BuzzyDefender.cpp.o.d"
+  "CMakeFiles/Lab1.dir/code/ECE_Buzzy.cpp.o"
+  "CMakeFiles/Lab1.dir/code/ECE_Buzzy.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

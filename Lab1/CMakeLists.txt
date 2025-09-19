@@ -9,10 +9,12 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add source files
-file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/code/BuzzyDefender.cpp)
+file(GLOB SOURCES ${PROJECT_SOURCE_DIR}/code/BuzzyDefender.cpp
+                  ${PROJECT_SOURCE_DIR}/code/ECE_Buzzy.cpp)
 
 # Add the executable
 add_executable(Lab1 ${SOURCES})
+target_include_directories(Lab1 PUBLIC ${PROJECT_SOURCE_DIR}/code/include)
 
 include_directories(${PROJECT_SOURCE_DIR}/../SFML/include)
 

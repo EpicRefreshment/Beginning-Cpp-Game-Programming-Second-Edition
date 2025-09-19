@@ -1,5 +1,5 @@
-Lab1/CMakeFiles/Lab1.dir/code/BuzzyDefender.cpp.o: \
- /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/code/BuzzyDefender.cpp \
+Lab1/CMakeFiles/Lab1.dir/code/ECE_Buzzy.cpp.o: \
+ /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/code/ECE_Buzzy.cpp \
  /usr/include/stdc-predef.h \
  /storage/pace-apps/spack/packages/linux-rhel9-x86_64_v3/gcc-11.3.1/gcc-12.3.0-ukkkutsxfl5kpnnaxflpkq2jtliwthfz/bin/../lib/gcc/x86_64-pc-linux-gnu/12.3.0/../../../../include/c++/12.3.0/iostream \
  /storage/pace-apps/spack/packages/linux-rhel9-x86_64_v3/gcc-11.3.1/gcc-12.3.0-ukkkutsxfl5kpnnaxflpkq2jtliwthfz/bin/../lib/gcc/x86_64-pc-linux-gnu/12.3.0/../../../../include/c++/12.3.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -146,6 +146,7 @@ Lab1/CMakeFiles/Lab1.dir/code/BuzzyDefender.cpp.o: \
  /storage/pace-apps/spack/packages/linux-rhel9-x86_64_v3/gcc-11.3.1/gcc-12.3.0-ukkkutsxfl5kpnnaxflpkq2jtliwthfz/bin/../lib/gcc/x86_64-pc-linux-gnu/12.3.0/../../../../include/c++/12.3.0/bits/ostream.tcc \
  /storage/pace-apps/spack/packages/linux-rhel9-x86_64_v3/gcc-11.3.1/gcc-12.3.0-ukkkutsxfl5kpnnaxflpkq2jtliwthfz/bin/../lib/gcc/x86_64-pc-linux-gnu/12.3.0/../../../../include/c++/12.3.0/istream \
  /storage/pace-apps/spack/packages/linux-rhel9-x86_64_v3/gcc-11.3.1/gcc-12.3.0-ukkkutsxfl5kpnnaxflpkq2jtliwthfz/bin/../lib/gcc/x86_64-pc-linux-gnu/12.3.0/../../../../include/c++/12.3.0/bits/istream.tcc \
+ /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/code/include/ECE_Buzzy.h \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics.hpp \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Window.hpp \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/System.hpp \
@@ -255,5 +256,4 @@ Lab1/CMakeFiles/Lab1.dir/code/BuzzyDefender.cpp.o: \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics/Glsl.inl \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics/Sprite.hpp \
  /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics/Text.hpp \
- /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics/VertexBuffer.hpp \
- /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/code/include/ECE_Buzzy.h
+ /home/hice1/jwolford6/ece6122/Beginning-Cpp-Game-Programming-Second-Edition/Lab1/../SFML/include/SFML/Graphics/VertexBuffer.hpp

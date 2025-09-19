@@ -18,11 +18,11 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${COMMON_OUTPUT_DIR}/lib")  # For static lib
 
 #add_subdirectory(openal-soft)
 add_subdirectory(SFML)
-add_subdirectory(Chapter01)
-add_subdirectory(Chapter02)
-add_subdirectory(Chapter03)
-add_subdirectory(Chapter04)
-add_subdirectory(Chapter05)
+#add_subdirectory(Chapter01)
+#add_subdirectory(Chapter02)
+#add_subdirectory(Chapter03)
+#add_subdirectory(Chapter04)
+#add_subdirectory(Chapter05)
 add_subdirectory(Lab1)
 
 # Include header files
